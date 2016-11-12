@@ -61,5 +61,59 @@
     "fechaFin": "11/11/2016",
     "hora":"21:40",
     "id": "7"
+  },
+  {
+    "name": "Comprar un pug",
+    "descripcion": "Los pugs son amor",
+    "status": false,
+    "fechaCreada": "01/01/2016",
+    "fechaFin": "15/16/2016",
+    "hora": "15:00",
+    "id": "8"
+  },
+  {
+    "name": "Menear la cadera",
+    "descripcion": "Hara que tengas mas mujeres a tú alrededor y dejaras de estar solo",
+    "status": false,
+    "fechaCreada": "10/10/2016",
+    "fechaFin": "12/11/2016",
+    "hora": "20:00",
+    "id": "9"
+  },
+  {
+    "name": "Ir al doctor",
+    "descripcion": "No recuerdo si estaba enfermo, o si tenia que ir porque yo soy el doctor",
+    "status": true,
+    "fechaCreada": "02/02/2016",
+    "fechaFin": "03/03/2016",
+    "hora": "09:00",
+    "id": "10"
+  },
+  {
+    "name": "Podar el pasto",
+    "descripcion": "El patio parece una selva, ya hasta perdi a mi perro debo podarlo para poder encontrarlo y darle de comer",
+    "status": false,
+    "fechaCreada": "05/11/2016",
+    "fechaFin": "20/11/2016",
+    "hora": "10:00",
+    "id": "11"
+  },
+  {
+    "name": "Comprar la despensa",
+    "descripcion": "Ya no hay comida, el perro se comio toda porque olvidaste quitarla del piso",
+    "status": false,
+    "fechaCreada": "01/11/2016",
+    "fechaFin": "17/11/2016",
+    "hora": "15:00",
+    "id": "12"
+  },
+  {
+    "name": "Programar una peda",
+    "descripcion": "Como eres programador y todos dicen que nunca serviras para nada, es tu momento y programaras la mejor peda :V",
+    "status": false,
+    "fechaCreada": "10/11/2016",
+    "fechaFin": "16/12/2016",
+    "hora": "20:00",
+    "id": "13"
   }
 ]
