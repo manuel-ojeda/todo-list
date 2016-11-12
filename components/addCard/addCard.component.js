@@ -13,6 +13,11 @@
 
 	function addCtrl(){
 		var add = this;
+
+
+		add.update = function(card) {
+        	add.master = angular.copy(card);
+      	};
 	}
 
 

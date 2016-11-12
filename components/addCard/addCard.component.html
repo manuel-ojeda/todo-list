@@ -1,7 +1,7 @@
 <div class="row">
 	<form class="col s10 offset-s1">	
 		<div class="input-field col s12">
-          	<input id="nombre" type="text" ng-model="card.name" required>
+          	<input id="nombre" type="text" ng-model="card.nombre" required>
           	<label for="nombre">Nombre</label>
         </div>
 	  		<div class="input-field col s12">
@@ -18,10 +18,11 @@
           	<input id="hora" type="text" name="hora" ng-model="card.hora" required>
           	<label for="hora">Hora</label>
         </div>
-		<input type="submit" class="waves-effect waves-light btn right" value="Agregar" />
+		<input type="submit" ng-click="$ctrl.update(card)" class="waves-effect waves-light btn right" value="Agregar" />
 	</form>
 </div>
-<pre>card = {{card | json}}</pre>
+<!-- <pre>card = {{card.nombre}}</pre>
+<pre>{{master}}</pre> -->
 
 
 <script>
