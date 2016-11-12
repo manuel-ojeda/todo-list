@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	angular.module("todolist", []);
+	angular.module("todolist", ["ngResource"]);
 
 	$('.modal').modal();
 })();
