@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Ver el partido",
+    "descripcion": "Tengo que ver el partido de México para que trump no contruya el muro",
+    "status": true,
+    "fechaCreada": "10/11/2016",
+    "fechaFin": "11/11/2016",
+    "hora":"19:00",
+    "id": "1"
+  },
+  {
+    "name": "Aprender polymer",
+    "descripcion": "Si aprendes polymer eres chido, y te ganas un chicle",
+    "status": false,
+    "fechaCreada": "10/11/2016",
+    "fechaFin": "20/12/2016",
+    "hora":"10:00",
+    "id": "2"
+  },
+  {
+    "name": "Pasear al chato(perro)",
+    "descripcion": "Si no paseo a el perro terminara mordiendome",
+    "status": false,
+    "fechaCreada": "10/10/2016",
+    "fechaFin": "12/12/2016",
+    "hora":"11:00",
+    "id": "3"
+  },
+  {
+    "name": "Esconder el cadaver",
+    "descripcion": "Debo esconder el cadaver del muerto, o me encerraran :v",
+    "status": false,
+    "fechaCreada": "10/11/12",
+    "fechaFin": "15/11/2016",
+    "hora":"23:00",
+    "id": "4"
+  },
+  {
+    "name": "Dormir",
+    "descripcion": "Si no duermo me quedo dormido en clase, y repruebo las materias",
+    "status": false,
+    "fechaCreada": "11/11/2016",
+    "fechaFin": "20/11/2016",
+    "hora":"10:00",
+    "id": "5"
+  },
+  {
+    "name": "Ir por la ropa",
+    "descripcion": "Lleve ropa a la lavanderia y debo ir por ella para que no me cobren por el retraso",
+    "status": false,
+    "fechaCreada": "08/11/2016",
+    "fechaFin": "25/11/2016",
+    "hora":"13:00",
+    "id": "6"
+  },
+  {
+    "name": "Ganar el hackatonsito",
+    "descripcion": "Si gano el hackatonsito sere muy felicito :V y podre aprender mejors",
+    "status": false,
+    "fechaCreada": "11/11/2016",
+    "fechaFin": "11/11/2016",
+    "hora":"21:40",
+    "id": "7"
+  }
+]

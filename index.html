@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="todolist">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Logo</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li>
+						<a class="large material-icons" href="#modal1">note_add</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	</header>
+	<main>
+		<todo-card></todo-card>
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Modal Header</h4>
+				<p>A bunch of text</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+			</div>
+		</div>
+	</main>
+	<footer>
+
+	</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script src="app.js"></script>
+<script src="components/todoCard/todoCard.component.js"></script>
+</html>
