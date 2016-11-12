@@ -10,8 +10,13 @@
 		.module("todolist")
 		.component("todoCard", todoCard)
 
-	function todoCardCtrl() {
+	todoCardCtrl.$inject = ["apitodolist"];
+
+	function todoCardCtrl(apitodolist) {
 		var tc = this;
-		console.log('hello world');
+		
+		tc.todolist = apitodolist.query();
+
+		console.log(tc.todolist);
 	}
 })();
