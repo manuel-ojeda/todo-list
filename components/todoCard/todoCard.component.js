@@ -16,7 +16,5 @@
 		var tc = this;
 		
 		tc.todolist = apitodolist.query();
-
-		console.log(tc.todolist);
 	}
 })();
